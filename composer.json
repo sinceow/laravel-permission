@@ -1,0 +1,25 @@
+{
+    "name": "jobsys/permission",
+    "type": "library",
+    "description": "Lite permission integrated for common project.",
+    "keywords": [
+        "framework",
+        "laravel",
+        "permission"
+    ],
+    "authors": [
+        {
+            "name": "sinceow",
+            "email": "sinceow@163.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jobsys\\Permission\\": "src/"
+        }
+    }
+}
